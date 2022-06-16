@@ -1,0 +1,44 @@
+{
+  "name": "safecam360RNExample",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/blur": "^3.6.0",
+    "@react-native-community/cli-platform-android": "^8.0.2",
+    "@react-native-masked-view/masked-view": "^0.2.6",
+    "@s20.ai/safecam-360-rn": "^0.2.6",
+    "axios": "^0.27.2",
+    "react": "17.0.2",
+    "react-native": "0.66.4",
+    "react-native-drop-shadow": "0.0.4",
+    "react-native-fast-image": "8.3.4",
+    "react-native-fs": "2.20.0",
+    "react-native-gradle-plugin": "^0.0.7",
+    "react-native-haptic-feedback": "^1.13.1",
+    "react-native-linear-gradient": "^2.5.6",
+    "react-native-reanimated": "^1.8.0",
+    "react-native-static-server": "^0.5.0",
+    "react-native-svg": "9.3.0",
+    "react-native-webview": "^11.22.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.5",
+    "@babel/runtime": "^7.18.3",
+    "@react-native-community/eslint-config": "^3.0.2",
+    "babel-jest": "^28.1.1",
+    "eslint": "^8.17.0",
+    "jest": "^28.1.1",
+    "metro-react-native-babel-preset": "^0.71.1",
+    "react-test-renderer": "17.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
